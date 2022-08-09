@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace semana3_ejemplo_de_menu_en_consola
 {
-    class Ejemplo_dowile
+    class Ejemplo_dowhile
     {
     }
 }
