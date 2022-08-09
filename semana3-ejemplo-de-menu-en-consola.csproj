@@ -44,9 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ejemplo-if.cs" />
-    <Compile Include="Ejemplo_dowile.cs" />
+    <Compile Include="Ejemplo_dowhile.cs" />
     <Compile Include="Ejemplo_for.cs" />
     <Compile Include="Ejemplo_swithc.cs" />
+    <Compile Include="Ejemplo_While.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Principal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
