@@ -18,7 +18,8 @@ namespace semana3_ejemplo_de_menu_en_consola
         static void Main(string[] args)
         {
             System.Console.WriteLine("Proyecto de Menu");
-            System.Console.WriteLine("Primer Programa Usando Estructuras");
+            System.Console.WriteLine("Primer Programa de munu creando con estructuras.");
+            System.Console.WriteLine("Precione ENTER.");
 
             System.Console.ReadKey();
 
