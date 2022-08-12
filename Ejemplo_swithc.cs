@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace semana3_ejemplo_de_menu_en_consola
 {
-    class Ejemplo_swithc
+    public class Ejemplo_swithc
     {
-        public static void Main()
+        public static void programa_swithc()
         {
+            System.Console.WriteLine("Switch externo");
             Console.WriteLine("ingrese un numero entre 1 y 3");
             int num = int.Parse(Console.ReadLine());
             switch (num)
@@ -29,6 +30,7 @@ namespace semana3_ejemplo_de_menu_en_consola
             }
             Console.ReadKey();
         }
+
     }
-} 
-    
+
+}

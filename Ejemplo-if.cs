@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace semana3_ejemplo_de_menu_en_consola
 {
-    class Ejemplo_if
+    public class Ejemplo_if
     {
-        public static void Main()
+        public static void programa_if()
         {
+            System.Console.WriteLine("if externo");
             string myInput;
             int myInt;
             Console.Write("Dame un número: ");
@@ -59,5 +60,7 @@ namespace semana3_ejemplo_de_menu_en_consola
                 Console.WriteLine("el número {0} es mayor que 30", myInt);
             }
         }
+
+
     }
 }

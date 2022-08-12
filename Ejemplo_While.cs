@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace semana3_ejemplo_de_menu_en_consola
 {
-    class Ejemplo_While
+    public class Ejemplo_While
     {
-        public static void Main()
+        public static void programa_While()
         {
+            System.Console.WriteLine("While externo");
             Console.WriteLine("ingrese un numero");
             int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("ingrese un numero mayor que el anterior");
@@ -21,5 +22,6 @@ namespace semana3_ejemplo_de_menu_en_consola
             }
             Console.ReadKey();
         }
+
     }
 }

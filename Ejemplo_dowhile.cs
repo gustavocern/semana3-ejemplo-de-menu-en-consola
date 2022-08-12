@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace semana3_ejemplo_de_menu_en_consola
 {
-    class Ejemplo_dowhile
+    public class Ejemplo_dowhile
     {
-        public static void Main()
+        public static void programa_dowhile()
         {
+            System.Console.WriteLine("Dowhile externo");
             string secreta;
             string palabra;
             Console.WriteLine("ingrese la palabra secreta");
@@ -26,5 +27,6 @@ namespace semana3_ejemplo_de_menu_en_consola
             Console.WriteLine("Palabra Correcta");
             Console.ReadKey();
         }
+
     }
 }

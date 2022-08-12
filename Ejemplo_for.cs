@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace semana3_ejemplo_de_menu_en_consola
 {
-    class Ejemplo_for
+    public class Ejemplo_for
     {
+        public static void programa_for()
+        {
+            System.Console.WriteLine("for externo");
+        }
 
     }
 }
